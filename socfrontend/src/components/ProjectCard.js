@@ -18,7 +18,7 @@ export default function ProjectCard(props) {
   };
 
     const WishlistAdd = () => {
-      // const token = localStorage.getItem('authToken');
+      const authtoken = localStorage.getItem('authToken');
 
       if (!authtoken) {
         console.log("No authentication token found. Please log in.");
